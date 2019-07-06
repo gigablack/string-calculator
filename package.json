@@ -1,0 +1,17 @@
+{
+  "name": "string-calculator",
+  "version": "1.0.0",
+  "description": "this module exports a function that receives a string of a mathemathic operation and returns the result number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "string",
+    "calculator",
+    "string-calculator",
+    "javascript"
+  ],
+  "author": "Gustavo Bethelmy <tenchu96@gmail.com> (https://github.com/gigablack)",
+  "license": "MIT"
+}
