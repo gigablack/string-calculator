@@ -5,7 +5,9 @@ const generateOperatorsArray = (inputString) => {
      * @return {array}
      */
 
-     return []
+    let operators = inputString.match(/\D/g)
+
+    return operators
 }
 
 module.exports = generateOperatorsArray

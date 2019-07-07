@@ -5,7 +5,7 @@ test('"3+5" debe ser igual a ["+"]',()=>{
 })
 
 test('"-3+5" debe ser igual a ["-","+"]',()=>{
-    expect(generateOperatorsArray("3+5")).toEqual(["-","+"])
+    expect(generateOperatorsArray("-3+5")).toEqual(["-","+"])
 })
 
 test('"3-5" debe ser igual a ["-"]',()=>{

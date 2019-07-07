@@ -12,7 +12,7 @@ const generateNumbersArray = (inputString) => {
 
     let numArray = generateNumArray(stringNumArray)
 
-    return [1,1,1]
+    return numArray
 }
 
 module.exports = generateNumbersArray

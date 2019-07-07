@@ -1,4 +1,4 @@
-
+const removePlus = require('./removePlus')
 
 const sumArrayItems = (operationArrayMultiDiv) => {
     /**
@@ -8,7 +8,21 @@ const sumArrayItems = (operationArrayMultiDiv) => {
         * if is false return the unique value of the array.  
      */
 
-    return 4
+    let newArray = [...operationArrayMultiDiv]
+
+    if(newArray.length > 1){
+        // To do
+        if(newArray.indexOf('+') !== -1){
+            // To do
+            newArray = removePlus(newArray)
+            return newArray.reduce((prev,curr)=> prev + curr)
+        } else {
+            // To do
+            return newArray.reduce((prev,curr)=> prev + curr)
+        }
+    } else {
+        return newArray[0]
+    }
 }
 
 module.exports = sumArrayItems

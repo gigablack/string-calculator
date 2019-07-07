@@ -7,7 +7,7 @@ const generateNumArray = (stringNumArray) => {
 
     let numbersArray = stringNumArray.map(val => +val)
 
-    return [1,1,1]
+    return numbersArray
 }
 
 module.exports = generateNumArray

@@ -45,5 +45,5 @@ test('[-420000,"+",800,-600,"+",250] debe ser igual a -419550',()=>{
 })
 
 test('[-420000,"+",800,-600,"+",250] debe ser un numero',()=>{
-    expect(sumArrayItems([-420000,"+",800,-600,"+",250])).not.toBeNaN(-419550)
+    expect(sumArrayItems([-420000,"+",800,-600,"+",250])).not.toBeNaN()
 })

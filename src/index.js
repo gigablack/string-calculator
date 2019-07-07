@@ -16,7 +16,7 @@ const stringCalculator = (inputString) => {
 
  let numArray = generateNumbersArray(inputString)
 
- let operationArray = generateOperationArray(inputString,opArray,numArray)
+ let operationArray = generateOperationArray(opArray,numArray)
 
  let operationArrayParsed = dashToDashOne(operationArray)
 

@@ -6,7 +6,17 @@ const dashToDashOne = (operationArray) => {
      * @return {array}  
      */
 
-    return [-1,"*",1,"+",1]
+    let newArray = [...operationArray]
+    if(newArray.indexOf('-') !== -1){
+        // do things
+        //["-",1,"-",1]
+        let index = newArray.indexOf('-')
+        newArray.splice(index,1,-1,'*')
+        return dashToDashOne(newArray)
+    } else {
+        // do things
+        return newArray
+    }
 }
 
 module.exports = dashToDashOne

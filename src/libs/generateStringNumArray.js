@@ -5,7 +5,9 @@ const generateStringNumArray = (inputString) => {
      * @return {array}
      */
 
-    return ['1','2','3']
+    let stringNumbers = inputString.match(/\d+/g)
+
+    return stringNumbers
 }
 
 module.exports = generateStringNumArray
