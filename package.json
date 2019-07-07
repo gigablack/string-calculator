@@ -12,6 +12,9 @@
     "string-calculator",
     "javascript"
   ],
-  "author": "Gustavo Bethelmy <tenchu96@gmail.com> (https://github.com/gigablack)",
-  "license": "MIT"
+  "author": "Gustavo Bethelmy <tenchu96@gmail.com> (https://bethelmy.ga)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }
