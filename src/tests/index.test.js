@@ -8,6 +8,22 @@ test('"3+5" debe ser un numero',()=>{
     expect(stringCalculator("3+5")).not.toBeNaN()
 })
 
+test('"3" debe ser igual a 3',()=>{
+    expect(stringCalculator("3")).toBe(3)
+})
+
+test('"3" debe ser un numero',()=>{
+    expect(stringCalculator("3")).not.toBeNaN()
+})
+
+test('"-3" debe ser igual a -3',()=>{
+    expect(stringCalculator("-3")).toBe(-3)
+})
+
+test('"-3" debe ser un numero',()=>{
+    expect(stringCalculator("-3")).not.toBeNaN()
+})
+
 test('"-3+5" debe ser igual a 2',()=>{
     expect(stringCalculator("-3+5")).toBe(2)
 })

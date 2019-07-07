@@ -9,6 +9,8 @@ const generateOperationArray = (opArray,numArray) => {
      * @return {array}
      */
 
+    if(opArray.length === 0) return numArray
+
     let operationArray = []
 
     if(numArray.length > opArray.length){

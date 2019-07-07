@@ -7,7 +7,11 @@ const generateOperatorsArray = (inputString) => {
 
     let operators = inputString.match(/\D/g)
 
-    return operators
+    if(operators){
+        return operators
+    } else {
+        return []
+    }
 }
 
 module.exports = generateOperatorsArray
