@@ -20,7 +20,7 @@ const generateOperationArray = (opArray,numArray) => {
         // do things
         operationArray = fillOperationArray(opArray,numArray)
     }
-
+    
     return operationArray
 }
 

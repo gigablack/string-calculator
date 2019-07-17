@@ -6,7 +6,7 @@ const generateNumArray = (stringNumArray) => {
      */
 
     let numbersArray = stringNumArray.map(val => +val)
-
+    
     return numbersArray
 }
 

@@ -5,8 +5,7 @@ const generateOperatorsArray = (inputString) => {
      * @return {array}
      */
 
-    let operators = inputString.match(/\D/g)
-
+let operators = inputString.match(/[*/+-]/g)
     if(operators){
         return operators
     } else {

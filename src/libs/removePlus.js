@@ -9,7 +9,7 @@ const removePlus = (arrayWithPlus) => {
         let indexPlus = newArray.indexOf('+')
         newArray.splice(indexPlus,1)
     }
-
+    
     return newArray
 }
 

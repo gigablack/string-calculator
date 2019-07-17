@@ -1,6 +1,6 @@
 {
   "name": "string-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this module exports a function that receives a string of a mathemathic operation and returns the result number.",
   "main": "./src/index.js",
   "scripts": {

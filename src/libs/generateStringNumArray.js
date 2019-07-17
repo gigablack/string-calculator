@@ -5,8 +5,8 @@ const generateStringNumArray = (inputString) => {
      * @return {array}
      */
 
-    let stringNumbers = inputString.match(/\d+/g)
-
+    let stringNumbers = inputString.match(/\d[?\.|?\d]*/g)
+    
     return stringNumbers
 }
 

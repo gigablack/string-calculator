@@ -63,3 +63,11 @@ test('"-60*70+80-60+10/20*50-5*7/8" debe ser cercano a -4159.375',()=>{
 test('"-60*70+80-60+10/20*50-5*7/8" debe ser un numero',()=>{
     expect(stringCalculator("-60*70+80-60+10/20*50-5*7/8")).not.toBeNaN()
 })
+
+test('"2.2+2" debe ser cercano a 4.2',()=>{
+    expect(stringCalculator("2.2+2")).toBeCloseTo(4.2)
+})
+
+test('"2.2+2" debe ser un numero',()=>{
+    expect(stringCalculator("2.2+2")).not.toBeNaN()
+})

@@ -47,3 +47,11 @@ test('[-420000,"+",800,-600,"+",250] debe ser igual a -419550',()=>{
 test('[-420000,"+",800,-600,"+",250] debe ser un numero',()=>{
     expect(sumArrayItems([-420000,"+",800,-600,"+",250])).not.toBeNaN()
 })
+
+test('[2.2,"+",2] debe ser cercano a 4.2',()=>{
+    expect(sumArrayItems([2.2,"+",2])).toBeCloseTo(4.2)
+})
+
+test('[2.2,"+",2] debe ser un numero',()=>{
+    expect(sumArrayItems([2.2,"+",2])).not.toBeNaN()
+})
